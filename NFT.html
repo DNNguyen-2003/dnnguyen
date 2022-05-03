@@ -1,0 +1,71 @@
+<html>
+    <head>
+       <title>DNN Shop</title>     
+       <link rel="stylesheet" href="CSS/NFT.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+       <script src="JS/NFT.js"></script>
+    </head>
+    <body>
+        <div class="web" id="fonttext">
+            <div class="lopthongbao hide">
+                <div class="thongbao">
+                <div class="dau"> 
+                    <p>NOTIFY</p> 
+                    <i class="fa-solid fa-xmark"></i> 
+                </div>
+                <div class="than">
+                    <h2>DNN is very sorry dear</h2>
+                    <p>The product is sold out, you can choose another product or come back next time</p>
+                </div>
+                <div class="ket">
+                    <button class="ket-btn">Close</button>
+                </div>
+            </div>
+        </div>
+            <div class="header">
+                <div class="logo"><img src="IMG/5b71dde0fc0647f88d105ed9f483e4d1 (3).png"></div>
+                <div class="menu">
+                    <li><a href="D:\VScode\Kết thúc học phần Front-End\TrangChu.html">HOME</a></li>
+                    <li><a href="#">PRODUCT</a>
+                        <ul>
+                            <li><a href="D:\VScode\Kết thúc học phần Front-End\NFT.html">NFT</a></li>
+                            <li><a href="#">NIKE</a></li>
+                            <li><a href="#">ADIDAS</a></li>
+                            <li><a href="#">CONVERT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </div>
+            </div>
+            <div class="motachinh"><b class="tieude"><p>Explore The NFT Collection</p></b> <br> <br>
+                 <p>NFT design gathered by designer Dang Ngoc Nguyen about colorful shoes and guns. <br> The collection has become widely known around the world.</p> 
+            </div>
+            <div><hr></div>
+            <div class="sanpham">
+                <div class="sanpham1"><video src="Video/3140401379.mp4" autoplay loop muted></video><a href="">NFT #001</a></div>
+                <div class="sanpham2"><video src="Video/3216972786.mp4" autoplay loop muted></video><a href="">NFT #002</a></div>
+                <div class="sanpham3"><video src="Video/3217210783.mp4" autoplay loop muted></video><a href="">NFT #003</a></div>
+                <div class="sanpham4" id="baohet"><div class="lopphu"><p>Sold Out</p></div><video src="Video/3159049247.mp4" autoplay loop muted></video><a href="">NFT #004</a></div>
+                <div class="sanpham5"><video src="Video/3233046825.mp4" autoplay loop muted></video><a href="">NFT #005</a></div>
+                <div class="sanpham6"><video src="Video/3183271312.mp4" autoplay loop muted></video><a href="">NFT #006</a></div>
+            </div>
+            <div class="footer">
+                <h2>DNN Shop</h2>
+                <p><i class="fa-solid fa-location-dot" id="icon"></i> Nam Ly, Dong Hoi, Quang Binh </p>
+                <p><i class="fa-solid fa-phone" id="icon"></i>0705975950</p>
+                <p><i class="fa-solid fa-envelope" id="icon"></i>dnnguyen3152003@gmail.com</p>
+            </div>
+            <script>
+                document.querySelector(".sanpham4").addEventListener("click", thongbao);
+                document.querySelector(".dau i").addEventListener("click",thongbao);
+                document.querySelector(".ket-btn").addEventListener("click",thongbao);
+                document.querySelector(".lopthongbao").addEventListener("click",(e)=>
+                    {
+                        if(e.target == e.currentTarget) thongbao();
+                    }
+                );
+            </script>
+        </div>
+    </body>
+</html>

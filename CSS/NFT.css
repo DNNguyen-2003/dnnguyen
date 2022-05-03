@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.web{
+    width: 100%;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+}
+.header .logo{
+    position: relative;
+    left: 200px;
+    width: 40%;
+}
+.header .menu{
+    font-size: 30px;
+    position: relative;
+    bottom: 60%;
+    width: 50%;
+    float: right;
+    right: 50px;
+}
+.menu li a{
+    color: black;
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    width: 175px;
+    line-height:1.5em;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(241, 240, 240);
+}
+.menu ul{
+    list-style-type: none;
+    position: absolute;
+    font-size: 20px;
+    top: 65px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: #2081E2;
+    color: white;
+    transition: 0.5s;
+}
+.menu li:hover a{
+    color: white;
+}
+.menu li:hover ul a{
+    color: black;
+}
+.menu li:hover ul{
+    display: block;
+}
+#fonttext{
+    font-family: "Poppins";
+}
+.motachinh{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.tieude p{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.motachinh p{
+    text-align: center;
+}
+.sanpham{
+    padding-top: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+.sanpham1,.sanpham2,.sanpham3,.sanpham4,.sanpham5,.sanpham6{
+    width: 30%;
+    height: 38%;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid silver;
+}
+.sanpham1 video,.sanpham2 video,.sanpham3 video,.sanpham4 video,.sanpham5 video,.sanpham6 video{
+    width: 100%;
+}
+.sanpham2,.sanpham3,.sanpham5,.sanpham6{
+  margin-left: 80px;
+}
+.sanpham4,.sanpham5,.sanpham6{
+    margin-top: 80px;
+}
+.sanpham1:hover,.sanpham2:hover,.sanpham3:hover,.sanpham5:hover,.sanpham6:hover{
+    border: 5px solid rgb(222, 222, 222);
+}
+a{
+    text-decoration: none;
+}
+.sanpham a{
+    padding-left: 41%;
+    position: relative;
+    top: 25px;
+    color: black;
+    font-size: 22px;
+}
+.lopphu{
+    width: 26.9%;
+    height: 38%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.lopphu p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 130px;
+}
+.lopthongbao{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.thongbao{
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 15px;
+    background-color: white;
+    width: 400px;
+    position: fixed;
+    top: 38%;
+    right: 40%;
+    border-radius: 5px;
+    transition: 2s;
+}
+.dau{
+    border-radius: 5px;
+    background-color: #2081E2;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+i{
+    bottom: 26px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.than{
+    padding: 20px;
+}
+.dau p{
+    font-size: 23px;
+}
+.than h2{
+    color: #2081E2;
+    margin-bottom: 10px;
+}
+.ket{
+    padding: 15px;
+    text-align: right;
+}
+.ket button{
+    padding:  10px 20px;
+    cursor: pointer;
+    background-color: #2081E2;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.footer{
+    margin-top: 47%;
+    height: 23%;
+    width: 100%;
+    background-color: #111111;
+}
+.footer h2{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+.footer i{
+    padding-right: 15px;
+    float: unset;
+    bottom: unset;
+}
+.footer p{
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}

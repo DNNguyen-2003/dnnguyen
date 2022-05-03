@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.web{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.video video{
+    width: 100%;
+    z-index: -1;
+}
+.logo{
+    width: 100%;
+    margin-left: 55px;
+}
+.logo img{
+    width: 78%;
+}
+.form{
+    margin-top: 30px;
+}
+.dangnhap{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    height: 65%;
+    width: 25%;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid silver;
+    padding: 10px;
+    z-index: 1;
+}
+.tentaikhoan, .matkhau{
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.matkhau{
+    margin-top: 15px;
+}
+.icon{
+    float: left;
+    height: 100%;
+    width: 18%;
+    background-color: black;
+    border-radius: 4px;
+}
+.icon i{
+    font-size: 30px;
+    padding-left: 21px;
+    padding-top: 5px;
+    color: white;
+}
+.text{
+    height: 100%;
+    width: 80%;
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+}
+span{
+    position: absolute;
+    cursor: pointer;
+    right: 15%;
+    top: 74%;
+}
+span .fa-solid{
+    color: #7a797e;
+}
+.login input{
+    margin-top: 30px;
+    margin-left: 41%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login input:hover{
+    background-color: white;
+    color: black;
+}
+.dangky{
+    padding-top: 15px;
+    margin-left: 28%;
+}
+.dangky a,.dangky p{
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
