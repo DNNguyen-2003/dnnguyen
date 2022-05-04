@@ -67,7 +67,7 @@ marquee{
     font-size: 40px;
 }
 .phan1{
-    height: 80% ;
+    height:775px;
     width: 100%;
     margin: 0 auto;
 }
@@ -113,7 +113,8 @@ marquee{
     cursor: pointer;
 }
 .phan2{
-    height: 70%;
+    padding-top: 20px;
+    height: 700px;
     width: 95%;
     margin: 0 auto;
 }
@@ -228,10 +229,9 @@ marquee{
     text-align: center;
 }
 .phan3{
-    margin-top: 12px;
-    height: 70%;
+    margin-top: 20px;
+    height: 700px;
     width: 100%;
-
 }
 .mota3-1{
     height: 100%;
@@ -245,12 +245,12 @@ marquee{
     overflow: hidden;
 }
 .video2{
-    height: 100%;
+    height: 700px;
     float: left;
     overflow: hidden;
 }
 .video2 video{
-    height: 100%;
+    height: 700px;
     border: 2px solid white;
 }
 .mota3-1 .mota3-1-1{
@@ -307,7 +307,7 @@ marquee{
 }
 .footer{
     margin-top: 15px;
-    height: 23%;
+    height: 230px;
     width: 100%;
     background-color: #111111;
 }

@@ -24,6 +24,7 @@
     width: 50%;
     float: right;
     right: 50px;
+    z-index: 1;
 }
 .menu li a{
     color: black;
@@ -66,13 +67,13 @@
     font-family: "Poppins";
 }
 .motachinh{
-    height: 30%;
+    height: 300px;
     width: 100%;
     background-color: rgb(240, 240, 240);
 }
 .tieude p{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 80px;
     font-size: 40px;
 }
 .motachinh p{
@@ -85,7 +86,7 @@
 }
 .sanpham1,.sanpham2,.sanpham3,.sanpham4,.sanpham5,.sanpham6{
     width: 30%;
-    height: 38%;
+    height: 380px;
     border-radius: 15px;
     overflow: hidden;
     float: left;
@@ -115,7 +116,7 @@ a{
 }
 .lopphu{
     width: 26.9%;
-    height: 38%;
+    height: 38.99%;
     position: absolute;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -187,7 +188,7 @@ i{
 }
 .footer{
     margin-top: 47%;
-    height: 23%;
+    height: 230px;
     width: 100%;
     background-color: #111111;
 }
