@@ -57,8 +57,11 @@
 .menu li:hover a{
     color: white;
 }
-.menu li:hover ul a{
+.menu li:hover .cap1 a{
     color: black;
+}
+.menu .cap1 li:hover a{
+    color: white;
 }
 .menu li:hover ul{
     display: block;
@@ -142,7 +145,7 @@ a{
     background-color: white;
     width: 400px;
     position: fixed;
-    top: 38%;
+    top: 30%;
     right: 40%;
     border-radius: 5px;
     transition: 2s;
