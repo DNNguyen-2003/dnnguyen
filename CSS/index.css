@@ -54,11 +54,11 @@
     color: white;
     transition: 0.5s;
 }
-.menu li:hover .cap1 a{
-    color: black;
-}
 .menu li:hover a{
     color: white;
+}
+.menu li:hover .cap1 a{
+    color: black;
 }
 .menu .cap1 li:hover a{
     color: white;
