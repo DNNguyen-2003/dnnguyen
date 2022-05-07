@@ -82,13 +82,20 @@
 .motachinh p{
     text-align: center;
 }
-.sanpham{
+.asanpham{
     padding-top: 5%;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+}
+.bsanpham{
+    padding-top: 5%;
+    height: 950px;
+    width: 100%;
+}
+.sanpham1 ,.sanpham4{
+    margin-left: 3.5%;
 }
 .sanpham1,.sanpham2,.sanpham3,.sanpham4,.sanpham5,.sanpham6{
-    width: 30%;
+    width: 28%;
     height: 380px;
     border-radius: 15px;
     overflow: hidden;
@@ -110,7 +117,7 @@
 a{
     text-decoration: none;
 }
-.sanpham a{
+.asanpham a,.bsanpham a{
     padding-left: 41%;
     position: relative;
     top: 25px;
@@ -118,7 +125,7 @@ a{
     font-size: 22px;
 }
 .lopphu{
-    width: 26.9%;
+    width: 27.9%;
     height: 38.99%;
     position: absolute;
     border-radius: 10px;
@@ -190,7 +197,7 @@ i{
     display: none;
 }
 .footer{
-    margin-top: 47%;
+    margin-top: 30px;
     height: 230px;
     width: 100%;
     background-color: #111111;
