@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +10,135 @@
     width: 65px;
     border-radius: 50%;
     border: 2px solid rgb(228,228,228);
-    margin-top: 850px;
-    margin-left: 94%;
+    margin-top: 630px;
+    margin-left: 93%;
+    background-color: white;
+    z-index: 1;
 }
 .mess i{
     font-size: 45px;
     color: #007bff;
     margin-top: 8px;
     margin-left: 8px;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+}
+.header .logo{
+    position: relative;
+    left: 200px;
+    width: 40%;
+}
+.header .menu{
+    
+    font-size: 30px;
+    position: relative;
+    bottom: 60%;
+    width: 50%;
+    float: right;
+    right: 50px;
+    z-index: 1;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    width: 175px;
+    line-height:1.5em;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(241, 240, 240);
+}
+.menu ul{
+    list-style-type: none;
+    position: absolute;
+    font-size: 20px;
+    top: 65px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: #2081E2;
+    color: white;
+    transition: 0.5s;
+}
+.menu li:hover a{
+    color: white;
+}
+.menu li:hover .cap1 a{
+    color: black;
+}
+.menu .cap1 li:hover a{
+    color: white;
+}
+.menu li:hover ul{
+    display: block;
+}
+#fonttext{
+    font-family: "Poppins";
+}
+.hinhanh{
+    height: 40%;
+    width: 100%;
+}
+.anh1{
+    width: 95%;
+    margin: 0 auto;
+}
+.hinhanh .anh1 img{
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: -70px;
+}
+.lopphu{
+    position: absolute;
+    margin-left: 2.55%;
+    margin-top: 15%;
+    height: 350px;
+    width: 94.9015%;
+    background-color: rgba(0,0,0,0.55);
+}
+.lopphu p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.tenshop p{
+    margin-top: -15px;
+    font-size: 100px;
+}
+.gioithieu{
+    height: 350px;
+    width: 95%;
+    margin-top: -205px;
+    position: absolute;
+    left: 4.5%;
+}
+.box1, .box2, .box3{
+    float: left;
+    height: 350px;
+    width: 20%;
+    background-color: white;
+    margin-left: 8.5%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.box1{
+    background-color: #fffc19;
+}
+.box2{
+    background-color: #19d3ff;
+}
+.box3{
+    background-color: #19ff8c;
 }
