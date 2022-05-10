@@ -134,11 +134,28 @@
     border-radius: 30px;
 }
 .box1{
-    background-color: #fffc19;
+    background-color: yellow;
 }
 .box2{
-    background-color: #19d3ff;
+    background-color: aqua;
 }
 .box3{
-    background-color: #19ff8c;
+    background-color: #ebebeb;
+}
+.box1 h2{
+    font-size: 30px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20%;
+}
+.box1 p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 45%;
+}
+.logo1 img{
+    margin-right: 20px;
+    width: 40%;
+    float: right;
 }
