@@ -100,13 +100,14 @@ marquee{
     text-align: center;
 }
 .mota1 button{
-    height: 50px;
-    width: 100px;
+    height: 60px;
+    width: 120px;
     background-color:#2081E2;
     border-radius: 8px;
     border: 1px solid #2081E2;
     font-size: 20px;
-    margin: 12% 41%;
+    margin-top: 12%;
+    margin-left: 41%;
     color: white;
 }
 .mota1 button:hover{
