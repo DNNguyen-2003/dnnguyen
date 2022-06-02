@@ -7,6 +7,47 @@
 .web{
     margin: 0 auto;
 }
+.background{
+    width: 100%;
+    height: 262.5vh;
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+}
+.icon{
+    display: flex;
+    white-space: nowrap;
+    margin-top: -10%;
+    padding: 17% 0;
+}
+.icon:nth-child(even){
+    margin-top: -10%;
+    animation: hieuungnen 20s linear infinite;
+}
+.icon:nth-child(odd){
+    margin-top: -10%;
+    animation: hieuungnen1 30s linear infinite;
+}
+.icon i{
+    font-size: 50px;
+    padding: 0 450px;
+    animation: hieuungicon 8s linear infinite;
+}
+.fa-bitcoin{
+    color: gold;
+}
+.fa-sun{
+    color: orangered;
+}
+.fa-star{
+    color: yellow;
+}
+.fa-heart{
+    color: red;
+}
+.fa-face-grin-beam{
+    color: #2081E2;
+}
 .header {
     height: 200px;
     width: 100%;
@@ -109,6 +150,7 @@ marquee{
     margin-top: 12%;
     margin-left: 41%;
     color: white;
+    transition:  0.1s linear;
 }
 .mota1 button:hover{
     background-color: white;
@@ -220,6 +262,7 @@ marquee{
     font-size: 20px;
     margin: 10% 0 41% 41%;
     color: white;
+    transition:  0.1s linear;
 }
 .mota2 button:hover{
     background-color: white;
@@ -276,6 +319,7 @@ marquee{
     font-size: 20px;
     margin: 12% 41%;
     color: white;
+    transition:  0.1s linear;
 }
 .mota3-1 button:hover{
     background-color: white;
@@ -302,6 +346,7 @@ marquee{
     font-size: 20px;
     margin: 10% 0 41% 42%;
     color: white;
+    transition:  0.1s linear;
 }
 .mota3-2 button:hover{
     background-color: white;
@@ -330,4 +375,28 @@ marquee{
 }
 #fonttext{
     font-family: "Poppins";
+}
+@keyframes hieuungnen{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes hieuungnen1{
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes hieuungicon{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }

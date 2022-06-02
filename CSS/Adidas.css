@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.web{
+    width: 100%;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+}
+.header .logo{
+    position: relative;
+    left: 200px;
+    width: 40%;
+}
+.header .menu{
+    font-size: 30px;
+    position: relative;
+    bottom: 60%;
+    width: 50%;
+    float: right;
+    right: 50px;
+    z-index: 1;
+}
+.menu li a{
+    color: black;
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    width: 175px;
+    line-height:1.5em;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(241, 240, 240);
+}
+.menu ul{
+    list-style-type: none;
+    position: absolute;
+    font-size: 20px;
+    top: 65px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: #2081E2;
+    color: white;
+    transition: 0.5s;
+}
+.menu li:hover a{
+    color: white;
+}
+.menu li:hover .cap1 a{
+    color: black;
+}
+.menu .cap1 li:hover a{
+    color: white;
+}
+.menu li:hover ul{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.sanpham{
+    padding-top: 5%;
+    width: 100%;
+    height: 140vh;
+}
+#sp{
+    height: 30%;
+    width: 18%;
+    background-color: black;
+    float: left;
+    margin: 5% 3.5%;
+    display: flex;
+    overflow: hidden;
+}
+.sanpham .mota{
+    display: unset;
+    position: relative;
+    right: 175%;
+    top: 85%;
+}
+.heart,.xeday{
+    display: unset;
+    position: relative;
+    font-size: 20px;
+}
+.heart{
+    right: 170%;
+    top: 5%;
+}
+.heartStyle{
+    color: red;
+}
+.xeday{
+    right: 258%;
+    top: 5%;
+}
+.mota p{
+    width: 200px;
+    font-size: 20px;
+}
+#sp:hover{
+    border: 1px solid black;
+}
+#sp:hover img{
+    animation: hieuung 1s 1 forwards;
+}
+.sanpham img{
+    height: 100%;
+    width: 100%;
+}
+#fonttext{
+    font-family: "Poppins";
+}
+.motachinh{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.tieude p{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.motachinh p{
+    text-align: center;
+}
+.footer{
+    margin-top: 30px;
+    height: 230px;
+    width: 100%;
+    background-color: #111111;
+}
+.footer h2{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+.footer i{
+    padding-right: 15px;
+    float: unset;
+    bottom: unset;
+}
+.footer p{
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+@keyframes hieuung{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
